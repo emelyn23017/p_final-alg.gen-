@@ -36,9 +36,13 @@ O conjunto de dados escolhido [Synthetic Agricultural Yield Prediction Dataset](
    
 ## Repositório 
 `Projeto Final GA - Floresta Aleatória.ipynb` - Jupyter notebook em python que apresenta a maximação por algoritmos genéticos do rendimento previsto por floresta aleatória.  
+<br>
 `Projeto Final GA - Rede Neural.ipynb` - Jupyter notebook em python que apresenta a maximação por algoritmos genéticos do rendimento previsto por redes neurais tipo MLP (_Multi Layer Perceptron_). Saiba mais em: [Previsão de rendimento agrícola por redes neurais tipo MLP](https://github.com/Joao-otavio04/Projeto_Final_Redes_Neurais/blob/main/README.md)
+<br>
 `README.md` - Arquivo que contém as informações gerais sobre o projeto. Você está aqui! :)
+<br>
 `agricultural_yield_test.csv` - conjunto de dados de teste sintéticos
+<br>
 `agricultural_yield_train.csv` -conjunto de dados de treino sintéticos
 
 Todos os arquivos acima se encontram no main branch do repositório.
