@@ -32,11 +32,29 @@ O conjunto de dados escolhido [Synthetic Agricultural Yield Prediction Dataset](
    * `Precipitação_mm` - precipitação total recebida durante a estação de crescimento em milímetros.
    * `Irrigation_Schedule` - O número de irrigações durante a estação de crescimento.
    * `Yield_kg_per_hectare` - O rendimento agrícola em quilogramas por hectare, servindo como variável alvo para previsão. [2] (texto traduzido pelo Google Translator)
-   * `Yield_kg_per_hectare` - Rendimento agrícola (kg/hec)
+   4. Target (para aprendizado de máquina): * `Yield_kg_per_hectare` - Rendimento agrícola (kg/hec)
    
 ## Repositório 
+`Projeto Final GA - Floresta Aleatória.ipynb` - Jupyter notebook em python que apresenta a maximação por algoritmos genéticos do rendimento previsto por floresta aleatória.  
+`Projeto Final GA - Rede Neural.ipynb` - Jupyter notebook em python que apresenta a maximação por algoritmos genéticos do rendimento previsto por redes neurais tipo MLP (_Multi Layer Perceptron_). Saiba mais em: [Previsão de rendimento agrícola por redes neurais tipo MLP](https://github.com/Joao-otavio04/Projeto_Final_Redes_Neurais/blob/main/README.md)
+`README.md` - Arquivo que contém as informações gerais sobre o projeto. Você está aqui! :)
+`agricultural_yield_test.csv` - conjunto de dados de teste sintéticos
+`agricultural_yield_train.csv` -conjunto de dados de treino sintéticos
+
+Todos os arquivos acima se encontram no main branch do repositório.
+Os arquivos `.ipynb` apresentam textos entre células de código que auxiliam seu entendimento. 
+
+### Como utilizar? 
+1. Baixe os arquivos `.csv`;
+2. Baixe os arquivos `.ipynb`;
+3. Mantenha todos os arquivos (`.csv` e `.ipynb`) no mesmo ambiente; 
+4. Execute os códigos no JupyterLab.
 
 ## Requisitos 
+1. Python instalado;
+2. JupyterLab habilitado;
+3. Obter arquivos .csv e .ipynb do repositório;
+4. Python configurado para importar bibliotecas e módulos necessários.
 
 ## Bibliotecas/Módulos 
 
