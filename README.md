@@ -1,2 +1,2 @@
-# p_final-alg.gen-
-Repositório para o Projeto Final da disciplina de Algoritmos Genéticos
+# Projeto Final de Algoritmos Genéticos 
+
