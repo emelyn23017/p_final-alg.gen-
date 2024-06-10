@@ -1,4 +1,4 @@
-# Projeto Final de Algoritmos Genéticos (ARRUMAR TÍTULO!)
+# Maximização de rendimento agrícola por algoritmos genéticos
 *Grupo:* Emelyn Alves, João O. de A. Nascimento, Kayllany L. da S. Oliveira
 <br>
 *Instituição:* Ilum - Escola de Ciência 
