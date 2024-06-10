@@ -32,7 +32,7 @@ O conjunto de dados escolhido [Synthetic Agricultural Yield Prediction Dataset](
    * `Precipitação_mm` - precipitação total recebida durante a estação de crescimento em milímetros.
    * `Irrigation_Schedule` - O número de irrigações durante a estação de crescimento.
    * `Yield_kg_per_hectare` - O rendimento agrícola em quilogramas por hectare, servindo como variável alvo para previsão. [2] (texto traduzido pelo Google Translator)
-   4. Target (para aprendizado de máquina): * `Yield_kg_per_hectare` - Rendimento agrícola (kg/hec)
+4. Target (para aprendizado de máquina): `Yield_kg_per_hectare` - Rendimento agrícola (kg/hec)
    
 ## Repositório 
 `Projeto Final GA - Floresta Aleatória.ipynb` - Jupyter notebook em python que apresenta a maximação por algoritmos genéticos do rendimento previsto por floresta aleatória.  
