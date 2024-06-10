@@ -8,10 +8,12 @@
 *Disciplina:* Redes Neurais e Algoritmos Genéticos
 
 ## Apresentação 
-Objetivo: Otimização (maximização) por algoritmos genéticos de rendimento previsto por redes neurais (e modelos de aprendizado de máquina? Floresta aleatória; É uma comparação?). 
-Interessante: Esse projeto é complementar ao projeto de Redes Neurais, verifique: [Previsão de rendimento agrícola por redes neurais tipo MLP](https://github.com/Joao-otavio04/Projeto_Final_Redes_Neurais/blob/main/README.md)
+Como segundo projeto final da disciplina propusemos o uso de algoritmos genéticos para maximização de rendimento agrícola previsto por aprendizado de máquina (redes neurais e floresta aleatória) utilizando dados sintéticos.
+
+Para o leitor curioso: verifique o primeiro projeto da disciplina: [Previsão de rendimento agrícola por redes neurais tipo MLP](https://github.com/Joao-otavio04/Projeto_Final_Redes_Neurais/blob/main/README.md). 
 
 ## Importância 
+
 
 ## Dataset 
 O conjunto de dados escolhido [Synthetic Agricultural Yield Prediction Dataset](https://www.kaggle.com/datasets/blueloki/synthetic-agricultural-yield-prediction-dataset/data) foi retirado do site [Kaggle](https://www.kaggle.com/) e apresenta as seguintes características: 
