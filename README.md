@@ -61,8 +61,11 @@ Os arquivos `.ipynb` apresentam textos entre células de código que auxiliam se
 * `random` - aleatorizar a escolha dos parâmetros de plantio;
 * `matplotlib` - plotar gráfico de curva de aprendizado;
 * `scipy ` - calcular a distância Manhattan entre valores previstos e valores reais;
-* `sklearn` - calcular o RMSE e aplicar o modelo de floresta aleatória;
+* `sklearn` - calcular o RMSE, aplicar o modelo de floresta aleatória, normalização e realizar split de dados;
 * `numpy` - cálculos gerais (média, desvio padrão, mínimo e máximo) e remodelação dos dados;
+* `torch` - conversão de dados em tensores;
+* `pytorch lighting` - criar e treinar a rede neural;
+* `pickle` - módulo que serializa e salva o estado do modelo treinado, no caso, a rede neural;
 * `deap` - módulo que auxilia na construção do algoritmo genético.
 
 ## Considerações teóricas 
