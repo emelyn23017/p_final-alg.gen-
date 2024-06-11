@@ -65,11 +65,15 @@ Os arquivos `.ipynb` apresentam textos entre células de código que auxiliam se
 * `numpy` - cálculos gerais (média, desvio padrão, mínimo e máximo) e remodelação dos dados;
 * `torch` - conversão de dados em tensores;
 * `pytorch lighting` - criar e treinar a rede neural;
-* `pickle` - módulo que serializa e salva o estado do modelo treinado, no caso, a rede neural;
+* `pickle` - módulo que serializa e salva o estado do modelo treinado, no caso, a rede neural [1];
 * `deap` - módulo que auxilia na construção do algoritmo genético.
 
 ## Conclusão 
 
+
 ## Referências 
-https://deap.readthedocs.io/en/master/api/tools.html#deap.tools.cxUniform
-Evolutionary Tools — DEAP 1.4.1 documentation
+**README:**
+[1] [pickle — Python object serialization](https://docs.python.org/3/library/pickle.html)
+**Notebooks:**
+[Correção dos comentários pelo chat gpt](https://chatgpt.com/share/10d26082-5f91-4ba4-a995-a28e0dd37d2e)
+[Evolutionary Tools — DEAP 1.4.1 documentation](https://deap.readthedocs.io/en/master/api/tools.html#deap.tools.cxUniform)
