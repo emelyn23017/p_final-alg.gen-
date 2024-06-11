@@ -31,12 +31,12 @@ O conjunto de dados escolhido [Synthetic Agricultural Yield Prediction Dataset](
    * `Sunny_Days` - O número de dias ensolarados durante a estação de crescimento.
    * `Precipitação_mm` - precipitação total recebida durante a estação de crescimento em milímetros.
    * `Irrigation_Schedule` - O número de irrigações durante a estação de crescimento.
-   * `Yield_kg_per_hectare` - O rendimento agrícola em quilogramas por hectare, servindo como variável alvo para previsão. [2] (texto traduzido pelo Google Translator)
+   * `Yield_kg_per_hectare` - O rendimento agrícola em quilogramas por hectare, servindo como variável alvo para previsão. [1] (texto traduzido pelo Google Translator)
 4. Target (para aprendizado de máquina): `Yield_kg_per_hectare` - Rendimento agrícola (kg/hec)
    
 ## Repositório 
-* `Projeto Final GA - Floresta Aleatória.ipynb` - Jupyter notebook em python que apresenta a maximação por algoritmos genéticos do rendimento previsto por floresta aleatória.
-* `Projeto Final GA - Rede Neural.ipynb` - Jupyter notebook em python que apresenta a maximação por algoritmos genéticos do rendimento previsto por redes neurais tipo MLP (_Multi Layer Perceptron_). Saiba mais em: [Previsão de rendimento agrícola por redes neurais tipo MLP](https://github.com/Joao-otavio04/Projeto_Final_Redes_Neurais/blob/main/README.md)
+* `Projeto Final GA - Floresta Aleatória.ipynb` - Jupyter notebook em python que apresenta a maximização por algoritmos genéticos do rendimento previsto por floresta aleatória.
+* `Projeto Final GA - Rede Neural.ipynb` - Jupyter notebook em python que apresenta a maximização por algoritmos genéticos do rendimento previsto por redes neurais tipo MLP (_Multi Layer Perceptron_). Saiba mais em: [Previsão de rendimento agrícola por redes neurais tipo MLP](https://github.com/Joao-otavio04/Projeto_Final_Redes_Neurais/blob/main/README.md)
 * `README.md` - Arquivo que contém as informações gerais sobre o projeto. Você está aqui! :)
 * `agricultural_yield_test.csv` - conjunto de dados de teste sintéticos
 * `agricultural_yield_train.csv` -conjunto de dados de treino sintéticos
@@ -65,15 +65,17 @@ Os arquivos `.ipynb` apresentam textos entre células de código que auxiliam se
 * `numpy` - cálculos gerais (média, desvio padrão, mínimo e máximo) e remodelação dos dados;
 * `torch` - conversão de dados em tensores;
 * `pytorch lighting` - criar e treinar a rede neural;
-* `pickle` - módulo que serializa e salva o estado do modelo treinado, no caso, a rede neural [1];
+* `pickle` - módulo que serializa e salva o estado do modelo treinado, no caso, a rede neural [2];
 * `deap` - módulo que auxilia na construção do algoritmo genético.
 
 ## Conclusão 
-
+A maximização por algoritmos genéticos do rendimento previsto por floresta aleatória retornou um rendimento de aproximadamente 1351.9 kg/hec, tendo como indivíduo vencedor: [70.2 1.0 292.7 115.8 165.8 14.0] (os valores de cada gene foram bruscamente aproximados, verifique os valores reais obtidos em [`Projeto Final GA - Floresta Aleatória.ipynb`](https://github.com/emelyn23017/projeto.final_alg.geneticos/blob/main/Projeto%20Final%20GA%20-%20Floresta%20Aleat%C3%B3ria.ipynb)). Já a maximização por algoritmos genéticos do rendimento previsto por redes neurais tipo MLP retornou um rendimento de aproximadamente 1905.6 kg/hec, tendo como indivíduo vencedor [53.5 0 68.6 107.8 710.5 10] (novamente os valores foram aproximados, verifique os valores reais em: [`Projeto Final GA - Redes Neurais.ipynb`](https://github.com/emelyn23017/projeto.final_alg.geneticos/blob/main/Projeto%20Final%20GA%20-%20Rede%20Neural.ipynb)). 
+Assim, podemos verificar que ambas maximizações funcionaram e que o rendimento previsto por redes neurais foi maior que o previsto por floresta aleatória. 
 
 ## Referências 
 **README:**
-[1] [pickle — Python object serialization](https://docs.python.org/3/library/pickle.html)
+[1] [Conjunto de dados sintéticos de previsão de rendimento agrícola - "Synthetic Agricultural Yield Prediction Dataset"](https://www.kaggle.com/datasets/blueloki/synthetic-agricultural-yield-prediction-dataset/data)
+[2] [pickle — Python object serialization](https://docs.python.org/3/library/pickle.html)
 **Notebooks:**
 [Correção dos comentários pelo chat gpt](https://chatgpt.com/share/10d26082-5f91-4ba4-a995-a28e0dd37d2e)
 [Evolutionary Tools — DEAP 1.4.1 documentation](https://deap.readthedocs.io/en/master/api/tools.html#deap.tools.cxUniform)
