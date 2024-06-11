@@ -15,7 +15,7 @@ Como segundo projeto final da disciplina propusemos o uso de algoritmos genétic
 ## Importância 
 O uso de algoritmos genéticos para maximização de um rendimento agrícola previsto pode ser uma ferramenta para busca de melhores condições de plantio de uma cultura. Além disso, levando em consideração situações socio-ambientais e econômicas, como: alto crescimento populacional, mudanças climáticas e aumento do custo de produção e comércio de alimentos; a busca pelo aumento do rendimento agrícola se faz cada vez mais necessária, como forma de implementação de uma agricultura mais sustentável e eficiente. 
 
-Para saber mais sobre o rendimento agrícola verifique a sessão `Brevíssimas considerações sobre rendimento agrícola` em [Previsão de rendimento agrícola por redes neurais tipo MLP](https://github.com/Joao-otavio04/Projeto_Final_Redes_Neurais/blob/main/README.md#brev%C3%ADssimas-considera%C3%A7%C3%B5es-sobre-rendimento-agr%C3%ADcola). 
+Para saber mais sobre o rendimento agrícola verifique [`Brevíssimas considerações sobre rendimento agrícola`](https://github.com/Joao-otavio04/Projeto_Final_Redes_Neurais/blob/main/README.md#brev%C3%ADssimas-considera%C3%A7%C3%B5es-sobre-rendimento-agr%C3%ADcola). 
 
 ## Dataset 
 O conjunto de dados escolhido [Synthetic Agricultural Yield Prediction Dataset](https://www.kaggle.com/datasets/blueloki/synthetic-agricultural-yield-prediction-dataset/data) foi retirado do site [Kaggle](https://www.kaggle.com/) e apresenta as seguintes características: 
