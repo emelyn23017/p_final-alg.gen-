@@ -10,7 +10,7 @@
 ## Apresentação 
 Como segundo projeto final da disciplina propusemos o uso de algoritmos genéticos para maximização de rendimento agrícola previsto por aprendizado de máquina (redes neurais e floresta aleatória) utilizando dados sintéticos.
 
-Para o leitor curioso: verifique o primeiro projeto da disciplina: [Previsão de rendimento agrícola por redes neurais tipo MLP](https://github.com/Joao-otavio04/Projeto_Final_Redes_Neurais/blob/main/README.md). 
+**Para o leitor curioso:** verifique o primeiro projeto da disciplina: [Previsão de rendimento agrícola por redes neurais tipo MLP](https://github.com/Joao-otavio04/Projeto_Final_Redes_Neurais/blob/main/README.md). 
 
 ## Importância 
 O uso de algoritmos genéticos para maximização de um rendimento agrícola previsto pode ser uma ferramenta para busca de melhores condições de plantio. Além disso, levando em consideração situações socio-ambientais e econômicas, como: alto crescimento populacional, mudanças climáticas e aumento do custo de produção e comércio de alimentos; a busca pelo aumento do rendimento agrícola se faz cada vez mais necessária, como forma de implementação de uma agricultura mais sustentável e eficiente. 
@@ -44,7 +44,7 @@ O conjunto de dados escolhido [Synthetic Agricultural Yield Prediction Dataset](
 Todos os arquivos acima se encontram no main branch do repositório.
 Os arquivos `.ipynb` apresentam textos entre células de código que auxiliam seu entendimento. 
 
-### Como utilizar? 
+### Como navegar?
 1. Baixe os arquivos `.csv`;
 2. Baixe os arquivos `.ipynb`;
 3. Mantenha todos os arquivos (`.csv` e `.ipynb`) no mesmo ambiente; 
@@ -56,10 +56,19 @@ Os arquivos `.ipynb` apresentam textos entre células de código que auxiliam se
 3. Obter arquivos .csv e .ipynb do repositório;
 4. Python configurado para importar bibliotecas e módulos necessários.
 
-## Bibliotecas/Módulos 
+## Bibliotecas/Módulos e suas funções (no projeto)
+`pandas` - importar e tratar dados;
+`random` - aleatorizar a escolha dos parâmetros de plantio;
+`matplotlib` - plotar gráfico de curva de aprendizado;
+`scipy ` - calcular a distância Manhattan entre valores previstos e valores reais;
+`sklearn` - calcular o RMSE e aplicar o modelo de floresta aleatória;
+`numpy` - cálculos gerais (média, desvio padrão, mínimo e máximo) e remodelação dos dados;
+`deap` - módulo que auxilia na construção do algoritmo genético.
 
 ## Considerações teóricas 
 
 ## Conclusão 
 
 ## Referências 
+https://deap.readthedocs.io/en/master/api/tools.html#deap.tools.cxUniform
+Evolutionary Tools — DEAP 1.4.1 documentation
