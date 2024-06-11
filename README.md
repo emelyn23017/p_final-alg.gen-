@@ -77,9 +77,13 @@ Os indivíduos vencedores foram:
 (os valores de cada gene foram bruscamente aproximados, verifique os valores reais obtidos em: [`Projeto Final GA - Floresta Aleatória.ipynb`](https://github.com/emelyn23017/projeto.final_alg.geneticos/blob/main/Projeto%20Final%20GA%20-%20Floresta%20Aleat%C3%B3ria.ipynb) e [`Projeto Final GA - Redes Neurais.ipynb`](https://github.com/emelyn23017/projeto.final_alg.geneticos/blob/main/Projeto%20Final%20GA%20-%20Rede%20Neural.ipynb))
 
 ## Referências 
+
 **README:**
 [1] [Conjunto de dados sintéticos de previsão de rendimento agrícola - "Synthetic Agricultural Yield Prediction Dataset"](https://www.kaggle.com/datasets/blueloki/synthetic-agricultural-yield-prediction-dataset/data)
+<br>
 [2] [pickle — Python object serialization](https://docs.python.org/3/library/pickle.html)
+<br>
 **Notebooks:**
 [Correção dos comentários pelo chat gpt](https://chatgpt.com/share/10d26082-5f91-4ba4-a995-a28e0dd37d2e)
+<br>
 [Evolutionary Tools — DEAP 1.4.1 documentation](https://deap.readthedocs.io/en/master/api/tools.html#deap.tools.cxUniform)
