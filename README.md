@@ -10,10 +10,10 @@
 ## Apresentação 
 Como segundo projeto final da disciplina propusemos o uso de algoritmos genéticos para maximização de rendimento agrícola previsto por aprendizado de máquina (redes neurais e floresta aleatória) utilizando dados sintéticos.
 
-**Para o leitor curioso:** verifique o primeiro projeto da disciplina: [Previsão de rendimento agrícola por redes neurais tipo MLP](https://github.com/Joao-otavio04/Projeto_Final_Redes_Neurais/blob/main/README.md). 
+**Para o leitor curioso:** verifique o primeiro projeto da disciplina [Previsão de rendimento agrícola por redes neurais tipo MLP](https://github.com/Joao-otavio04/Projeto_Final_Redes_Neurais/blob/main/README.md). 
 
 ## Importância 
-O uso de algoritmos genéticos para maximização de um rendimento agrícola previsto pode ser uma ferramenta para busca de melhores condições de plantio. Além disso, levando em consideração situações socio-ambientais e econômicas, como: alto crescimento populacional, mudanças climáticas e aumento do custo de produção e comércio de alimentos; a busca pelo aumento do rendimento agrícola se faz cada vez mais necessária, como forma de implementação de uma agricultura mais sustentável e eficiente. 
+O uso de algoritmos genéticos para maximização de um rendimento agrícola previsto pode ser uma ferramenta para busca de melhores condições de plantio de uma cultura. Além disso, levando em consideração situações socio-ambientais e econômicas, como: alto crescimento populacional, mudanças climáticas e aumento do custo de produção e comércio de alimentos; a busca pelo aumento do rendimento agrícola se faz cada vez mais necessária, como forma de implementação de uma agricultura mais sustentável e eficiente. 
 
 Para saber mais sobre o rendimento agrícola verifique a sessão `Brevíssimas considerações sobre rendimento agrícola` em [Previsão de rendimento agrícola por redes neurais tipo MLP](https://github.com/Joao-otavio04/Projeto_Final_Redes_Neurais/blob/main/README.md). 
 
@@ -29,19 +29,19 @@ O conjunto de dados escolhido [Synthetic Agricultural Yield Prediction Dataset](
    * `Seed_Variety` -  Indicador binário de variedade de semente, onde 1 representa uma variedade de alto rendimento.
    * `Fertilizer_Amount_kg_per_hectare`- A quantidade de fertilizante utilizada em quilogramas por hectare.
    * `Sunny_Days` - O número de dias ensolarados durante a estação de crescimento.
-   * `Precipitação_mm` - precipitação total recebida durante a estação de crescimento em milímetros.
+   * `Precipitação_mm` - Precipitação total recebida durante a estação de crescimento em milímetros.
    * `Irrigation_Schedule` - O número de irrigações durante a estação de crescimento.
    * `Yield_kg_per_hectare` - O rendimento agrícola em quilogramas por hectare, servindo como variável alvo para previsão. [1] (texto traduzido pelo Google Translator)
 4. Target (para aprendizado de máquina): `Yield_kg_per_hectare` - Rendimento agrícola (kg/hec)
    
 ## Repositório 
-* `Projeto Final GA - Floresta Aleatória.ipynb` - Jupyter notebook em python que apresenta a maximização por algoritmos genéticos do rendimento previsto por floresta aleatória.
-* `Projeto Final GA - Rede Neural.ipynb` - Jupyter notebook em python que apresenta a maximização por algoritmos genéticos do rendimento previsto por redes neurais tipo MLP (_Multi Layer Perceptron_). Saiba mais em: [Previsão de rendimento agrícola por redes neurais tipo MLP](https://github.com/Joao-otavio04/Projeto_Final_Redes_Neurais/blob/main/README.md)
+* `Projeto Final GA - Floresta Aleatória.ipynb` - Jupyter notebook em python que apresenta a maximização por algoritmos genéticos do rendimento previsto por floresta aleatória;
+* `Projeto Final GA - Rede Neural.ipynb` - Jupyter notebook em python que apresenta a maximização por algoritmos genéticos do rendimento previsto por redes neurais tipo MLP (_Multi Layer Perceptron_). Saiba mais em: [Previsão de rendimento agrícola por redes neurais tipo MLP](https://github.com/Joao-otavio04/Projeto_Final_Redes_Neurais/blob/main/README.md);
 * `README.md` - Arquivo que contém as informações gerais sobre o projeto. Você está aqui! :)
-* `agricultural_yield_test.csv` - conjunto de dados de teste sintéticos
-* `agricultural_yield_train.csv` -conjunto de dados de treino sintéticos
+* `agricultural_yield_test.csv` - Conjunto de dados de teste sintéticos;
+* `agricultural_yield_train.csv` - Conjunto de dados de treino sintéticos.
 
-Todos os arquivos acima se encontram no main branch do repositório.
+Todos os arquivos acima estão no `main branch` do repositório.
 Os arquivos `.ipynb` apresentam textos entre células de código que auxiliam seu entendimento. 
 
 ### Como navegar?
@@ -53,7 +53,7 @@ Os arquivos `.ipynb` apresentam textos entre células de código que auxiliam se
 ## Requisitos 
 1. Python instalado;
 2. JupyterLab habilitado;
-3. Obter arquivos .csv e .ipynb do repositório;
+3. Obter arquivos `.csv` e `.ipynb` do repositório;
 4. Python configurado para importar bibliotecas e módulos necessários.
 
 ## Bibliotecas/Módulos e suas funções (no projeto)
