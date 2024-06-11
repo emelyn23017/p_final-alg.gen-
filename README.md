@@ -69,8 +69,12 @@ Os arquivos `.ipynb` apresentam textos entre células de código que auxiliam se
 * `deap` - módulo que auxilia na construção do algoritmo genético.
 
 ## Conclusão 
-A maximização por algoritmos genéticos do rendimento previsto por floresta aleatória retornou um rendimento de aproximadamente 1351.9 kg/hec, tendo como indivíduo vencedor: [70.2 1.0 292.7 115.8 165.8 14.0] (os valores de cada gene foram bruscamente aproximados, verifique os valores reais obtidos em [`Projeto Final GA - Floresta Aleatória.ipynb`](https://github.com/emelyn23017/projeto.final_alg.geneticos/blob/main/Projeto%20Final%20GA%20-%20Floresta%20Aleat%C3%B3ria.ipynb)). Já a maximização por algoritmos genéticos do rendimento previsto por redes neurais tipo MLP retornou um rendimento de aproximadamente 1905.6 kg/hec, tendo como indivíduo vencedor [53.5 0 68.6 107.8 710.5 10] (novamente os valores foram aproximados, verifique os valores reais em: [`Projeto Final GA - Redes Neurais.ipynb`](https://github.com/emelyn23017/projeto.final_alg.geneticos/blob/main/Projeto%20Final%20GA%20-%20Rede%20Neural.ipynb)). 
-Assim, podemos verificar que ambas maximizações funcionaram e que o rendimento previsto por redes neurais foi maior que o previsto por floresta aleatória. 
+As maximizações por algoritmos genéticos do rendimento previsto por floresta aleatória e redes neurais tipo MLP retornaram rendimentos de aproximadamente 1351.9 kg/hec e 1905.6 kg/hec, respectivamente. A partir disso, verificamos que o algoritmo genético funcionou, ou seja, buscou maior rendimento agrícola.  
+
+Os indivíduos vencedores foram: 
+* Floresta Aleatória - [70.2 1.0 292.7 115.8 165.8 14.0]
+* Redes Neurais tipo MLP - [53.5 0 68.6 107.8 710.5 10]
+(os valores de cada gene foram bruscamente aproximados, verifique os valores reais obtidos em: [`Projeto Final GA - Floresta Aleatória.ipynb`](https://github.com/emelyn23017/projeto.final_alg.geneticos/blob/main/Projeto%20Final%20GA%20-%20Floresta%20Aleat%C3%B3ria.ipynb) e [`Projeto Final GA - Redes Neurais.ipynb`](https://github.com/emelyn23017/projeto.final_alg.geneticos/blob/main/Projeto%20Final%20GA%20-%20Rede%20Neural.ipynb))
 
 ## Referências 
 **README:**
