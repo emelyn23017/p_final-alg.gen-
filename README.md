@@ -57,13 +57,13 @@ Os arquivos `.ipynb` apresentam textos entre células de código que auxiliam se
 4. Python configurado para importar bibliotecas e módulos necessários.
 
 ## Bibliotecas/Módulos e suas funções (no projeto)
-`pandas` - importar e tratar dados;
-`random` - aleatorizar a escolha dos parâmetros de plantio;
-`matplotlib` - plotar gráfico de curva de aprendizado;
-`scipy ` - calcular a distância Manhattan entre valores previstos e valores reais;
-`sklearn` - calcular o RMSE e aplicar o modelo de floresta aleatória;
-`numpy` - cálculos gerais (média, desvio padrão, mínimo e máximo) e remodelação dos dados;
-`deap` - módulo que auxilia na construção do algoritmo genético.
+* `pandas` - importar e tratar dados;
+* `random` - aleatorizar a escolha dos parâmetros de plantio;
+* `matplotlib` - plotar gráfico de curva de aprendizado;
+* `scipy ` - calcular a distância Manhattan entre valores previstos e valores reais;
+* `sklearn` - calcular o RMSE e aplicar o modelo de floresta aleatória;
+* `numpy` - cálculos gerais (média, desvio padrão, mínimo e máximo) e remodelação dos dados;
+* `deap` - módulo que auxilia na construção do algoritmo genético.
 
 ## Considerações teóricas 
 
