@@ -79,13 +79,13 @@ Os indivíduos vencedores foram:
 ## Referências 
 
 **README:**
-
+<br>
 [1] [Conjunto de dados sintéticos de previsão de rendimento agrícola - "Synthetic Agricultural Yield Prediction Dataset"](https://www.kaggle.com/datasets/blueloki/synthetic-agricultural-yield-prediction-dataset/data)
 <br>
 [2] [pickle — Python object serialization](https://docs.python.org/3/library/pickle.html)
 <br>
 **Notebooks:**
-
+<br>
 [Correção dos comentários pelo chat gpt](https://chatgpt.com/share/10d26082-5f91-4ba4-a995-a28e0dd37d2e)
 <br>
 [Evolutionary Tools — DEAP 1.4.1 documentation](https://deap.readthedocs.io/en/master/api/tools.html#deap.tools.cxUniform)
