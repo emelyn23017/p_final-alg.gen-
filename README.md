@@ -68,8 +68,6 @@ Os arquivos `.ipynb` apresentam textos entre células de código que auxiliam se
 * `pickle` - módulo que serializa e salva o estado do modelo treinado, no caso, a rede neural;
 * `deap` - módulo que auxilia na construção do algoritmo genético.
 
-## Considerações teóricas 
-
 ## Conclusão 
 
 ## Referências 
