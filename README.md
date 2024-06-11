@@ -74,7 +74,8 @@ As maximizações por algoritmos genéticos do rendimento previsto por floresta 
 Os indivíduos vencedores foram: 
 * Floresta Aleatória - [70.2 1.0 292.7 115.8 165.8 14.0]
 * Redes Neurais tipo MLP - [53.5 0 68.6 107.8 710.5 10]
-(os valores de cada gene foram bruscamente aproximados, verifique os valores reais obtidos em: [`Projeto Final GA - Floresta Aleatória.ipynb`](https://github.com/emelyn23017/projeto.final_alg.geneticos/blob/main/Projeto%20Final%20GA%20-%20Floresta%20Aleat%C3%B3ria.ipynb) e [`Projeto Final GA - Redes Neurais.ipynb`](https://github.com/emelyn23017/projeto.final_alg.geneticos/blob/main/Projeto%20Final%20GA%20-%20Rede%20Neural.ipynb))
+
+Obervação: Os valores de cada gene foram bruscamente aproximados, verifique os valores reais obtidos em: [`Projeto Final GA - Floresta Aleatória.ipynb`](https://github.com/emelyn23017/projeto.final_alg.geneticos/blob/main/Projeto%20Final%20GA%20-%20Floresta%20Aleat%C3%B3ria.ipynb) e [`Projeto Final GA - Redes Neurais.ipynb`](https://github.com/emelyn23017/projeto.final_alg.geneticos/blob/main/Projeto%20Final%20GA%20-%20Rede%20Neural.ipynb)
 
 ## Referências 
 
